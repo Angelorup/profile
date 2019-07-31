@@ -1,0 +1,97 @@
+body {
+  background: #ECFCFE;
+}
+
+h1, h2, h3 {
+  font-family: 'Valera Round', sans-serif;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: #044389;
+}
+
+a:hover{
+  color: #37392E;
+}
+
+h1 {
+  color: #65DFFB;
+}
+
+h2 {
+  color: #5edfff;
+  font-size: 20px;
+}
+
+h3 {
+  font-weight: lighter;
+  font-size: 18px
+  color: #37392E;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  font-size: 25px;
+}
+
+i:hover {
+  color: #044389;
+}
+
+figure {
+    margin: 0;
+    size:
+}
+
+figcaption {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.poetry {
+    padding: 10px;
+    border: 2px solid #84CAE7;
+    margin: 34px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.image-round {
+  border-radius: 90%;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
